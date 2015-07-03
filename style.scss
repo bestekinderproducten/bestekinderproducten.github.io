@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 5px solid $boy;
 
   @include mobile {
     text-align: center;
@@ -166,7 +166,7 @@ img {
 .site-avatar {
   float: left;
   width: 200px;
-  height: 70px;
+  height: 51px;
   margin-right: 15px;
 
   @include mobile {
@@ -281,6 +281,26 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.dl-inline {
+  max-width: 600px;
+  clear: both;
+  overflow: hidden;
+  font-size: 80%;
+
+  dt {
+    float: left;
+    clear: left;
+    font-weight: bold;
+    width: 40%;
+    margin-right: 5%;
+  }
+  dd {
+    float: right;
+    text-align: left;
+    width: 55%;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
