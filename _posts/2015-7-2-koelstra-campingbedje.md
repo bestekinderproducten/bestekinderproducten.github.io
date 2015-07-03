@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review: Koelstra campingbedje
+title: Koelstra campingbedje review
 ---
 
 Waarschijnlijk het mooiste kinderbedje wat er is, zeker in kleur!
