@@ -9,7 +9,12 @@ layout: default
     </span> stars - <b>"<span itemprop="name">{{ page.reviewtitle }}</span>" </b>
   </div>
 
+
   <div class="entry" itemprop="reviewBody">
+    {% if page.img %}
+      <img src="{{ site.baseurl }}/post_images/{{page.img.large}}">
+    {% endif %}
+
     {{ content }}
   </div>
 

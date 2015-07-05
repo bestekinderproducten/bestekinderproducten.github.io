@@ -2,17 +2,32 @@
 layout: default
 ---
 
+#Op zoek naar een campingbedje?
+
+z
+
+
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+    <article class="review review-excerpt">
+      <figure class="review-thumb">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img src="{{ site.baseurl }}/post_images/{{ post.img.small }}" alt="{{ post.title }}">
+        </a>
+      </figure>
+      <div class="review-body">
+        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+        <span class="score">
+          {% for star in post.reviewscore|length %}
+          a
+          {% endfor %}
+        </span>
+        <div class="entry">
+          {{ post.excerptbody }}
+        </div>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Bekijk review</a>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
