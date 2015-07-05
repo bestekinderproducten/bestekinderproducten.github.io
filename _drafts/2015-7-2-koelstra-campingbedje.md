@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Koelstra campingbedje review
-reviewtitle: Geweldige kwaliteit
+reviewtitle: Mooie kwaliteit voor vele jaren.
 reviewscore: 4
 img:
   small:  koelstra-campingbedje/koelstra-campingbed-jade-small.jpg

@@ -2,34 +2,33 @@
 layout: post
 title: Prenetal campingbedje review
 reviewtitle: Gemakkelijk op te zetten voor iedereen
-reviewscore: 4
+reviewscore: 3
 img:
-  small:  koelstra-campingbedje/koelstra-campingbed-jade-small.jpg
-  medium: koelstra-campingbedje/koelstra-campingbed-jade.jpg
-  large:  koelstra-campingbedje/koelstra-campingbed-jade.jpg 
+  small:  prenetal-campingbedje/prenetal-campingbed-small.jpg
+  medium: prenetal-campingbedje/prenetal-campingbed.jpg
+  large:  prenetal-campingbedje/prenetal-campingbed.jpg 
   
-excerptbody: Het klassieke campingbedje. Hij is makkelijk in elkaar te zetten maar is wel aan de zware kant.
+excerptbody: Prima bed voor een kleine prijs.
+intro: Opzoek naar het klassieke campingbedje met weinig poespas? Neem dan het basismodel van Prenetal. 
+       Naast de fijne prijs is het in elkaar zetten is na een eerste instructie gemakkelijk. 
 ---
-
-
-Een keer langs de prenetal? Er zijn er namelijk veel van het eigen merk.
 
 ##Uitvouwen
 Zodra je weet hoe een standaard bedje opgezet moet worden is het erg makkelijk. Het is daarom wel aan te raden
 om de eerste keer een instructie video te bekijken. 
 
 ##De Kwaliteit
-
-
+De stof van het campingbedje is van degelijke kwaliteit. Maar de waar is natuurlijk wel naar het geld. Verder is de consturctie stevig.
+Het gewicht van het bedje ligt iets onder vergelijkbare campingbedjes.
 
 ##Technische specificaties
 <dl class="dl-inline">
 	<dt>Gewicht</dt>
-	<dd>8.3kg</dd>
+	<dd>8.0kg</dd>
 	<dt>Uitgevouwen formaat</dt>
-	<dd>L 125cm x B 65cm x H 77cm</dd>
+	<dd>L 125cm x B 65cm x H 74cm</dd>
 	<dt>Opgevouwen formaat</dt>
-	<dd>L 22cm x B 21cm x H 77cm</dd>
+	<dd>L 22.5cm x B 21.5cm x H 75cm</dd>
 	<dt>Kruipluik</dt>
 	<dd>Nee</dd>
 	<dt>Draagtas</dt>
