@@ -21,7 +21,7 @@ body {
 	background: $white;
     font-size: 1em;
     line-height: 1.5;
-    font-family: georgia, serif;
+    font-family: sans-serif;
     color: $darkGray;
 }
 
@@ -153,7 +153,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .masthead {
@@ -306,21 +306,10 @@ footer {
 }
 
 
-.review {
-
-  .review-thumb {
-    float: left;
-    width: 168px;
-    display: block;
-  }
-
-  .review-body {
-    padding-left: 188px;
-    display: block;
-  }
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "type.scss";
+@import "reviews";

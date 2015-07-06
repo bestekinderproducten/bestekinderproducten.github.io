@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/Review">
+<article class="post review" itemscope itemtype="http://schema.org/Review">
   <div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product" >
     <h1 itemprop="name">{{ page.title }}</h1>
     <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
@@ -19,6 +19,32 @@ layout: default
     {% endif %}
 
     {{ content }}
+
+    <div class="technics">
+      <h2>Technische specificaties</h2>
+      <dl class="dl-inline">
+        <dt>Gewicht</dt>
+        <dd>{{ page.specs.gewicht}} kg</dd>
+        <dt>Uitgevouwen formaat</dt>
+        <dd>{{ page.specs.afmetingen-uitgevouwen }}</dd>
+        <dt>Opgevouwen formaat</dt>
+        <dd>{{ page.specs.afmetingen-opgevouwen }}</dd>
+        <dt>Kruipluik</dt>
+        <dd>{{ page.specs.kruipluik }}</dd>
+        <dt>Draagtas</dt>
+        <dd>{{ page.specs.draagtas }}</dd>
+        <dt>Kleur</dt>
+        <dd>{{ page.specs.kleur }}</dd>
+        <dt>Opvouwsysteem</dt>
+        <dd>{{ page.specs.opvouwsysteem }}</dd>
+        <dt>Wielen</dt>
+        <dd>{{ page.specs.wielen }}</dd>
+        <dt>Verstelbare hoogte</dt>
+        <dd>{{ page.specs.verstelbare-bodem }}</dd>
+        <dt>Richtprijs</dt>
+        <dd>&euro; {{ page.specs.richtprijs|float }}</dd>
+      </dl>
+    </div>
   </div>
 
   {% include disqus.html %}

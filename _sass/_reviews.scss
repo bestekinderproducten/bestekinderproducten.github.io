@@ -1,0 +1,30 @@
+.review {
+
+	.review-thumb {
+		float: left;
+		width: 168px;
+		display: block;
+		padding: 20px 0;
+	}
+
+
+}
+
+.review-excerpt {
+	border-top: 1px solid #ccc;
+
+	&:first-child {
+		border-top: none;
+	}
+
+	.review-body {
+		padding-left: 188px;
+		display: block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.review-title {
+		margin-top: 0;
+	}
+}

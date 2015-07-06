@@ -11,6 +11,18 @@ img:
 excerptbody: Prima bed voor een kleine prijs.
 intro: Opzoek naar het klassieke campingbedje met weinig poespas? Neem dan het basismodel van Prenetal. 
        Naast de fijne prijs is het in elkaar zetten is na een eerste instructie gemakkelijk. 
+       
+specs:
+  gewicht: 8.0
+  afmetingen-opgevouwen: 22.5x21.5x74
+  afmetingen-uitgevouwen: 125x65x75
+  kruipluik: Nee
+  draagtas: Ja
+  kleur: Grijs
+  opvouwsysteem: Klik systeem
+  wielen: Nee
+  verstelbare-bodem: Nee
+  richtprijs: 34,99
 ---
 
 ##Uitvouwen
@@ -20,23 +32,3 @@ om de eerste keer een instructie video te bekijken.
 ##De Kwaliteit
 De stof van het campingbedje is van degelijke kwaliteit. Maar de waar is natuurlijk wel naar het geld. Verder is de consturctie stevig.
 Het gewicht van het bedje ligt iets onder vergelijkbare campingbedjes.
-
-##Technische specificaties
-<dl class="dl-inline">
-	<dt>Gewicht</dt>
-	<dd>8.0kg</dd>
-	<dt>Uitgevouwen formaat</dt>
-	<dd>L 125cm x B 65cm x H 74cm</dd>
-	<dt>Opgevouwen formaat</dt>
-	<dd>L 22.5cm x B 21.5cm x H 75cm</dd>
-	<dt>Kruipluik</dt>
-	<dd>Nee</dd>
-	<dt>Draagtas</dt>
-	<dd>Ja</dd>
-	<dt>Kleur</dt>
-	<dd>Grijs</dd>
-	<dt>Geschikt tot</dt>
-	<dd>onbekend</dd>
-	<dt>Opvouwsysteem</dt>
-	<dd>Kliksysteem</dd>
-</dl>
