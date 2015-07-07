@@ -18,16 +18,16 @@ html {
 }
 
 body {
-	background: $white;
     font-size: 1em;
     line-height: 1.5;
-    font-family: sans-serif;
+    font-family: $helveticaNeue;
     color: $darkGray;
+    background: lighten($boy, 40%);
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 940px;
   padding: 0 10px;
   width: 100%;
 }
@@ -35,7 +35,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: lighter;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -154,11 +154,12 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 20px;
+  background: lighten($boy, 20%);
+
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 5px solid $boy;
 
   @include mobile {
     text-align: center;
@@ -227,14 +228,19 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: black;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+    }
+
+    &:hover {
+      color: black;
+      border-bottom: 1px solid black;
+      padding-bottom: 2px;
     }
   }
 }
@@ -253,7 +259,11 @@ nav {
   border-bottom: none;
 }
 
-.post {
+.post, .page {
+  max-width: 780px;
+  background: white;
+  padding: 40px 30px 30px 100px;
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -266,23 +276,25 @@ nav {
   .comments {
     margin-top: 10px;
   }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
 
 footer {
   padding: 20px 0;
-  text-align: center;
+  text-align: left;
+  margin-top: 50px;
+  background-color: lighten($boy, 20%);
+  color: #000;
+  font-family: "Georgia", serif;
+
+  h3 {
+    font-weight: lighter;
+    color: white;
+  }
+
+  .col1 {
+    width: 25%;
+  }
 }
 
 .dl-inline {
@@ -305,6 +317,24 @@ footer {
   }
 }
 
+.compare-table {
+  width: 100%;
+  padding: 20px;
+  background: white;
+}
+
+table {
+  width: 100%;
+  font-size: 80%;
+  thead {
+    font-weight: bold;
+    border-bottom: 2px solid $girl;
+  }
+
+  tr:nth-child(2n){
+    background: lighten($boy, 30%);
+  }
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
@@ -313,3 +343,4 @@ footer {
 @import "svg-icons";
 @import "type.scss";
 @import "reviews";
+@import "buttons";

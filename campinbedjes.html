@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: page
 title: Reviews van campingbedjes
 permalink: /campingbedjes/
 ---
-
-<h1>Reviews</h1>
-
-
 <div class="posts">
 	{% for post in site.posts %}
 	<article class="review review-excerpt">
@@ -17,17 +13,17 @@ permalink: /campingbedjes/
 			</a>
 		</figure>
 		<div class="review-body">
-			<h3 class="review-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-        <span class="score">
-          {% for star in post.reviewscore|length %}
-          a
-          {% endfor %}
-        </span>
+			<h3 class="review-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><span class="score">
+				{{ post.reviewscore|star_rating }}
+			</span></h3>
+
 
 			<div class="entry">
 				{{ post.excerptbody }}
 			</div>
-			<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Bekijk review</a>
+			<div class="button-container button-right">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="read-more button ">Bekijk review</a>
+			</div>
 		</div>
 
 	</article>
