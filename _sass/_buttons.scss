@@ -1,0 +1,20 @@
+@import "variables";
+
+.button {
+	border: none;
+	background: $girl;
+	padding: 5px 20px;
+	color: white;
+	border-radius: 2px;
+	font-family: $helveticaNeue;
+	font-weight: lighter;
+
+	&:hover {
+		color: white;
+		background: darken($girl, 10%);
+	}
+}
+
+.button-right {
+	text-align: right;
+}

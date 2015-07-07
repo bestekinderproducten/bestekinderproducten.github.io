@@ -1,0 +1,31 @@
+---
+layout: page
+title: Reviews van campingbedjes
+permalink: /campingbedjes/
+---
+<div class="posts">
+	{% for post in site.posts %}
+	<article class="review review-excerpt">
+		<figure class="review-thumb">
+			<a href="{{ site.baseurl }}{{ post.url }}">
+				<img src="{{ site.baseurl }}/post_images/{{ post.img.small }}"
+					 alt="{{ post.title }}">
+			</a>
+		</figure>
+		<div class="review-body">
+			<h3 class="review-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><span class="score">
+				{{ post.reviewscore|star_rating }}
+			</span></h3>
+
+
+			<div class="entry">
+				{{ post.excerptbody }}
+			</div>
+			<div class="button-container button-right">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="read-more button ">Bekijk review</a>
+			</div>
+		</div>
+
+	</article>
+	{% endfor %}
+</div>

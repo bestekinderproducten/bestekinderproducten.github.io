@@ -1,0 +1,46 @@
+---
+layout: default
+title: Campingbedjes vergelijken
+permalink: /campingbedjes-vergelijken/
+---
+<article class="compare-table">
+<h1>Campingbedjes vergelijken</h1>
+<p>Ben je aan het zoeken en weet je nog niet precies wat je wilt? Wij snappen het, er is namelijk zoveel om uit te kiezen.
+Daarom hebben wij een handige tabel opgezet met alle specs van campingbedjes die wij hebben gereviewed.</p>
+
+<p>De lijst wordt snel geupdate met meerdere campingbedjes, ook zonder review. Zodat je ook andere bedjes kunt vergelijken.</p>
+
+<table>
+	<thead>
+		<tr>
+			<td>Merk</td>
+			<td>Onze score</td>
+			<td>Gewicht</td>
+			<td>Afm. opgevouwen</td>
+			<td>Afm. uitgevouwen (buitenmaat)</td>
+			<td>Kruipluik</td>
+			<td>Bodemverhoger</td>
+			<td>Wielen</td>
+			<td>Draagtas</td>
+			<td>Gebruik</td>
+		</tr>
+	</thead>
+
+	<tbody>
+		{% for post in site.posts %}
+		<tr>
+			<td><a href="{{ site.baseurl }}{{ post.url }}" title="Bekijk de review van {{ post.specs.naam}}">{{ post.specs.naam }}</a></td>
+			<td>{{ post.reviewscore }}/5</td>
+			<td>{{ post.specs.gewicht }}</td>
+			<td>{{ post.specs.afmetingen-opgevouwen }}</td>
+			<td>{{ post.specs.afmetingen-uitgevouwen }}</td>
+			<td>{{ post.specs.kruipluik }}</td>
+			<td>{{ post.specs.verstelbare-bodem }}</td>
+			<td>{{ post.specs.wielen }}</td>
+			<td>{{ post.specs.draagtas }}</td>
+			<td>{{ post.specs.gebruik }} jaar</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+</article>

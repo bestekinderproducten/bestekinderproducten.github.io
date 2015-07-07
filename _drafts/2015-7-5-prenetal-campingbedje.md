@@ -1,43 +1,42 @@
 ---
 layout: post
-title: Prenetal campingbedje review
-reviewtitle: Gemakkelijk op te zetten voor iedereen
-reviewscore: 4
+title: Prenetal basic campingbedje review
+permalink: /prenetal-basic-campingbedje-review/
+reviewtitle: Prima bed voor een kleine prijs
+reviewscore: 3
 img:
-  small:  koelstra-campingbedje/koelstra-campingbed-jade-small.jpg
-  medium: koelstra-campingbedje/koelstra-campingbed-jade.jpg
-  large:  koelstra-campingbedje/koelstra-campingbed-jade.jpg 
+  small:  prenetal-campingbedje/prenetal-campingbed-small.jpg
+  medium: prenetal-campingbedje/prenetal-campingbed.jpg
+  large:  prenetal-campingbedje/prenetal-campingbed.jpg 
   
-excerptbody: Het klassieke campingbedje. Hij is makkelijk in elkaar te zetten maar is wel aan de zware kant.
+excerptbody: Prima bed voor een kleine prijs.
+introTitle: Eerste indruk
+intro: De kwaliteit is redelijk, het bedje het het klassieke in en uitklap systeem en voldoet aan de basis vereisten; campingbed, een draagtas en een hard matrasje.
+       
+specs:
+  naam: Prenetal basic
+  gewicht: 8.0
+  afmetingen-opgevouwen: 22.5x21.5x74
+  afmetingen-uitgevouwen: 125x65x75
+  kruipluik: Nee
+  draagtas: Ja
+  kleur: Grijs
+  opvouwsysteem: Klik systeem
+  wielen: Nee
+  verstelbare-bodem: Nee
+  gebruik: 0-4
+  richtprijs: 34.99
 ---
 
-
-Een keer langs de prenetal? Er zijn er namelijk veel van het eigen merk.
-
-##Uitvouwen
+##Uitklappen
 Zodra je weet hoe een standaard bedje opgezet moet worden is het erg makkelijk. Het is daarom wel aan te raden
-om de eerste keer een instructie video te bekijken. 
+om de eerste keer een instructie video te bekijken.
+
+##Gewicht
+Met een gewicht van 8 kilo is het campingbedje niet het zwaarste bedje dat wij getest hebben. Maar als je van plan bent om het bedje vaak te verplaatsen, kunnen wij een lichter reisbedje aanraden.
 
 ##De Kwaliteit
+De stof van het campingbedje is van degelijke kwaliteit. Maar de waar is natuurlijk wel naar het geld, verwacht niet dat het bedje voor altijd. De constructie stevig is verder wel stevig. Het gewicht van het bedje ligt iets onder vergelijkbare campingbedjes.
 
-
-
-##Technische specificaties
-<dl class="dl-inline">
-	<dt>Gewicht</dt>
-	<dd>8.3kg</dd>
-	<dt>Uitgevouwen formaat</dt>
-	<dd>L 125cm x B 65cm x H 77cm</dd>
-	<dt>Opgevouwen formaat</dt>
-	<dd>L 22cm x B 21cm x H 77cm</dd>
-	<dt>Kruipluik</dt>
-	<dd>Nee</dd>
-	<dt>Draagtas</dt>
-	<dd>Ja</dd>
-	<dt>Kleur</dt>
-	<dd>Grijs</dd>
-	<dt>Geschikt tot</dt>
-	<dd>onbekend</dd>
-	<dt>Opvouwsysteem</dt>
-	<dd>Kliksysteem</dd>
-</dl>
+##Eindoordeel
+Een prima bedje voor een mooie prijs. Wel raden we aan om het bedje voor gebruik enkele keren op te zetten, om te voorkomen dat je loopt te stuntelen op het moment dat je het bedje nodig hebt.

@@ -1,21 +1,60 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/Review">
-  <div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
+<article class="post review" itemscope itemtype="http://schema.org/Review">
+  <div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product" >
     <h1 itemprop="name">{{ page.title }}</h1>
     <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-    <span itemprop="ratingValue">{{page.reviewscore}}</span>
-    </span> stars - <b>"<span itemprop="name">{{ page.reviewtitle }}</span>" </b>
+      <span itemprop="ratingValue">
+          <span class="score">
+            {{ page.reviewscore|star_rating }}
+          </span>
+      </span>
+    </span> - <b>"<span itemprop="name">{{ page.reviewtitle }}</span>" </b>
   </div>
 
 
   <div class="entry" itemprop="reviewBody">
-    {% if page.img %}
-      <img src="{{ site.baseurl }}/post_images/{{page.img.large}}">
-    {% endif %}
+    <div class="review-intro">
+      {% if page.img %}
+        <figure class="review-thumb">
+          <img src="{{ site.baseurl }}/post_images/{{page.img.large}}">
+        </figure>
+      {% endif %}
+      <div class="review-body">
+      <h2 class="review-title">{{ page.introTitle }}</h2>
+      <p>
+        {{ page.intro }}
+      </p>
+    </div>
 
     {{ content }}
+
+    <div class="technics">
+      <h2>Technische specificaties</h2>
+      <dl class="dl-inline">
+        <dt>Gewicht</dt>
+        <dd>{{ page.specs.gewicht}} kg</dd>
+        <dt>Uitgevouwen formaat</dt>
+        <dd>{{ page.specs.afmetingen-uitgevouwen }}</dd>
+        <dt>Opgevouwen formaat</dt>
+        <dd>{{ page.specs.afmetingen-opgevouwen }}</dd>
+        <dt>Kruipluik</dt>
+        <dd>{{ page.specs.kruipluik }}</dd>
+        <dt>Draagtas</dt>
+        <dd>{{ page.specs.draagtas }}</dd>
+        <dt>Kleur</dt>
+        <dd>{{ page.specs.kleur }}</dd>
+        <dt>Opvouwsysteem</dt>
+        <dd>{{ page.specs.opvouwsysteem }}</dd>
+        <dt>Wielen</dt>
+        <dd>{{ page.specs.wielen }}</dd>
+        <dt>Verstelbare hoogte</dt>
+        <dd>{{ page.specs.verstelbare-bodem }}</dd>
+        <dt>Richtprijs</dt>
+        <dd>&euro; {{ page.specs.richtprijs|float }}</dd>
+      </dl>
+    </div>
   </div>
 
   {% include disqus.html %}

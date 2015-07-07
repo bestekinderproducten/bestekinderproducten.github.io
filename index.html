@@ -1,37 +1,48 @@
 ---
 layout: default
 ---
+<article class="page">
+	<h1>De zoektocht naar het beste</h1>
+	<p>
+		Als je in verwachting bent komt er een wereld genaamd 'baby' op je af,
+		je krijgt informatie van iedereen op je heen. Familie, verloskundige, vriendinnen en het internet.
+		En je wilt graag het beste voor jouw kleine wolk. Maar waar begin je? Wij helpen je graag in de uitgebreide babywereld
+		opzoek naar dat product wat het meest bij jullie past.
+	</p>
 
-<p>Om de keuzes in de overcomplete babymarkt iets te beperken zijn wij begonnen met een website
-om moeders, vaders, opa's, oma's en alle andere mensen die opzoek zijn naar het geschikte product voor een klein wonder.</p>
+	<p>Op jou te ondersteunen bij deze zoektocht zijn wij deze website begonnen. Voor ieder product
+		schrijven wij een uitgebreide review zodat je op een plaats kan vergelijken welk product het
+		beste past bij jullie situatie en behoeften. Hiermee hopen wij jou een aardige tijd aan
+		onderzoek te ontnemen!</p>
 
-<p>We gaan uitgebreide reviews schrijven over de producten die jij zoekt. De eerste producten die op de planning staan zijn
-campingbedjes. We gaan tips geven voor de aanschaf en bereiden je voor zodat je zeker weet dat het product dat je koopt
-aansluit bij jouw situatie.</p>
+	<h2>Onze laatste reviews</h2>
 
-<p>Daarnaast geven we tips en handige inpaklijsten voor vakantie, logeerpartijtjes en leuke bezigheden per leeftijd.</p>
+	<div class="posts">
+		{% for post in site.posts %}
+		<article class="review review-excerpt">
+			<figure class="review-thumb">
+				<a href="{{ site.baseurl }}{{ post.url }}">
+					<img src="{{ site.baseurl }}/post_images/{{ post.img.small }}"
+						 alt="{{ post.title }}">
+				</a>
+			</figure>
+			<div class="review-body">
+				<h2 class="review-title">
+					<a href="{{ site.baseurl }}{{ post.url }}">
+						{{ post.title }} <span class="score">{{ post.reviewscore|star_rating }}</span>
+					</a>
+				</h2>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="review review-excerpt">
-      <figure class="review-thumb">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <img src="{{ site.baseurl }}/post_images/{{ post.img.small }}" alt="{{ post.title }}">
-        </a>
-      </figure>
-      <div class="review-body">
-        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-        <span class="score">
-          {% for star in post.reviewscore|length %}
-          a
-          {% endfor %}
-        </span>
-        <div class="entry">
-          {{ post.excerptbody }}
-        </div>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Bekijk review</a>
-      </div>
+				<div class="entry">
+					{{ post.excerptbody }}
+				</div>
 
-    </article>
-  {% endfor %}
-</div>
+				<div class="button-container button-right">
+					<a href="{{ site.baseurl }}{{ post.url }}" class="read-more button ">Bekijk review</a>
+				</div>
+			</div>
+
+		</article>
+		{% endfor %}
+	</div>
+</article>
