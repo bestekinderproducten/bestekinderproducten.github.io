@@ -27,16 +27,14 @@ layout: default
 				</a>
 			</figure>
 			<div class="review-body">
-				<h2 class="review-title">
-					<a href="{{ site.baseurl }}{{ post.url }}">
-						{{ post.title }} <span class="score">{{ post.reviewscore|star_rating }}</span>
-					</a>
-				</h2>
+				<h3 class="review-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					{% include rating.html rating=post.reviewscore %}
+				</h3>
+
 
 				<div class="entry">
 					{{ post.excerptbody }}
 				</div>
-
 				<div class="button-container button-right">
 					<a href="{{ site.baseurl }}{{ post.url }}" class="read-more button ">Bekijk review</a>
 				</div>
