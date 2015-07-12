@@ -21,7 +21,8 @@
 	}
 }
 .score {
-	whitespace: pre;
+	display: inline-block;
+	width: 100px;
 }
 .icon {
 	width: 15px;
