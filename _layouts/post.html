@@ -17,14 +17,14 @@ layout: default
      - <b>"<span itemprop="name">{{ page.reviewtitle }}</span>" </b></span>
 
 
-  <div class="entry" itemprop="reviewBody">
+  <div class="entry">
     <div class="review-intro">
       {% if page.img %}
-        <figure class="review-thumb">
-          <img alt="{{ page.reviewtitle }}" src="{{ site.baseurl }}/post_images/{{page.img.large}}">
+        <figure class="review-thumb" itemscope itemtype="http://schema.org/Product">
+          <img itemprop="image" alt="{{ page.reviewtitle }}" src="{{ site.baseurl }}/post_images/{{page.img.large}}">
         </figure>
       {% endif %}
-      <div class="review-body">
+      <div class="review-body"  itemprop="reviewBody">
         <h2 class="review-title">{{ page.introTitle }}</h2>
         <p>
           {{ page.intro }}
