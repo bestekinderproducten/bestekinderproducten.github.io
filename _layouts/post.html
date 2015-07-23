@@ -10,9 +10,10 @@ layout: default
     <h1 itemprop="name">{{ page.title }}</h1>
   </div>
     <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-      <span itemprop="ratingValue">
-        {% include rating.html rating=page.reviewscore %}
+      <span itemprop="ratingValue" class="sr-only">
+        {{ page.reviewscore }}
       </span>
+      {% include rating.html rating=page.reviewscore %}
      - <b>"<span itemprop="name">{{ page.reviewtitle }}</span>" </b></span>
 
 
