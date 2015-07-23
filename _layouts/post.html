@@ -4,35 +4,32 @@ layout: default
 
 
 
-<article class="post review" itemscope itemtype="http://schema.org/Review">
-  <span class="sr-only" itemprop="author">Bestebabyproducten.nl</span>
-  <div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Product">
-    <h1 itemprop="name">{{ page.title }}</h1>
-  </div>
+<article class="post review" itemscope itemtype="http://schema.org/Product">
+  {% if page.img %}
+  <figure class="review-thumb">
+    <img itemprop="image" alt="{{ page.reviewtitle }}" src="{{ site.baseurl }}/post_images/{{page.img.large}}">
+  </figure>
+  {% endif %}
+  <h1 itemprop="name">{{ page.title }}</h1>
+  <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <span class="sr-only" itemprop="author">Bestbabyproducten.nl</span>
     <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
       <span itemprop="ratingValue" class="sr-only">
         {{ page.reviewscore }}
       </span>
       {% include rating.html rating=page.reviewscore %}
-     - <b>"<span itemprop="name">{{ page.reviewtitle }}</span>" </b></span>
+     - </span><b>"<span itemprop="name">{{ page.reviewtitle }}</span>" </b>
 
-
-  <div class="entry">
-    <div class="review-intro">
-      {% if page.img %}
-        <figure class="review-thumb">
-          <img itemprop="image" alt="{{ page.reviewtitle }}" src="{{ site.baseurl }}/post_images/{{page.img.large}}">
-        </figure>
-      {% endif %}
-      <div class="review-body"  itemprop="reviewBody">
-        <h2 class="review-title">{{ page.introTitle }}</h2>
-        <p>
-          {{ page.intro }}
-        </p>
-      </div>
+    <div class="entry">
+          <h2 class="review-title">{{ page.introTitle }}</h2>
+          <p>
+            {{ page.intro }}
+          </p>
     </div>
 
+    <div class="entry" itemprop="reviewBody">
     {{ content }}
+    </div>
 
     <div class="technics">
       <h2>Technische specificaties</h2>
