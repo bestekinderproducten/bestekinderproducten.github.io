@@ -27,6 +27,7 @@ specs:
   verstelbare-bodem: Nee
   gebruik: 0-4
   richtprijs: 99,-
+  matras: 2/5
 ---
 
 ##Uitklappen

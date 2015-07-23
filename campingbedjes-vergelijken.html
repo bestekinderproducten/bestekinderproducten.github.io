@@ -6,67 +6,127 @@ metadescription: Wil je graag campingbedjes vergelijken? Hier vind je een vergel
 permalink: /campingbedjes-vergelijken/
 ---
 <article class="compare-table">
-<h1>Campingbedjes vergelijken</h1>
-<p>Ben je aan het zoeken en weet je nog niet precies wat je wilt? Wij snappen het, er is namelijk zoveel om uit te kiezen.
-Daarom hebben wij een handige tabel opgezet met alle specs van campingbedjes die wij hebben gereviewed.</p>
+	<h1>Campingbedjes vergelijken</h1>
+	<p>Ben je aan het zoeken en weet je nog niet precies wat je wilt? Wij snappen het, er is namelijk zoveel om uit te kiezen.
+	Daarom hebben wij een handige tabel opgezet met alle specs van campingbedjes die wij hebben gereviewed.</p>
 
-<p>De lijst wordt snel geupdate met meerdere campingbedjes, ook zonder review. Zodat je ook andere bedjes kunt vergelijken.</p>
+	<p>De lijst wordt snel geupdate met meerdere campingbedjes, ook zonder review. Zodat je ook andere bedjes kunt vergelijken.</p>
 
-<table>
-	<thead>
-		<tr>
-			<td>Merk</td>
-			<td>Onze score</td>
-			<td>Gewicht</td>
-			<td>Afm. opgevouwen</td>
-			<td>Afm. uitgevouwen (buitenmaat)</td>
-			<td>Kruipluik</td>
-			<td>Bodemverhoger</td>
-			<td>Wielen</td>
-			<td>Draagtas</td>
-			<td>Gebruik</td>
-		</tr>
-	</thead>
+	<table class="sortable">
+		<thead>
+			<tr>
+				<td>Merk</td>
+				<td>Onze score</td>
+				<td>Gewicht</td>
+				<td>Afm. opgevouwen</td>
+				<td>Kruipluik</td>
+				<td>Bodemverhoger</td>
+				<td>Wielen</td>
+				<td>Draagtas</td>
+				<td>Gebruik</td>
+				<td>Matrasscore</td>
+			</tr>
+		</thead>
 
-	<tbody>
-		{% for post in site.posts %}
-		<tr>
-			<td><a href="{{ site.baseurl }}{{ post.url }}" title="Bekijk de review van {{ post.specs.naam}}">{{ post.specs.naam }}</a></td>
-			<td>{{ post.reviewscore }}/5</td>
-			<td>{{ post.specs.gewicht }}</td>
-			<td>{{ post.specs.afmetingen-opgevouwen }}</td>
-			<td>{{ post.specs.afmetingen-uitgevouwen }}</td>
-			<td>{{ post.specs.kruipluik }}</td>
-			<td>{{ post.specs.verstelbare-bodem }}</td>
-			<td>{{ post.specs.wielen }}</td>
-			<td>{{ post.specs.draagtas }}</td>
-			<td>{{ post.specs.gebruik }} jaar</td>
-		</tr>
-		{% endfor %}
-		<tr>
-			<td>Campingbed Nuna Sena Night</td>
-			<td>-</td>
-			<td>9.7</td>
-			<td>27x27x87</td>
-			<td>105x75x78</td>
-			<td>Nee</td>
-			<td>Nee</td>
-			<td>Nee</td>
-			<td>Ja	</td>
-			<td>0-3 jaar</td>
-		</tr>
-		<tr>
-			<td>Deryan travel cot</td>
-			<td>-</td>
-			<td>2</td>
-			<td>36x36x16</td>
-			<td>120x75x46</td>
-			<td>Ja</td>
-			<td>Nee</td>
-			<td>Nee</td>
-			<td>Ja</td>
-			<td>0-2 jaar</td>
-		</tr>
-	</tbody>
-</table>
+		<tbody>
+			{% for post in site.posts %}
+			<tr>
+				<td><a href="{{ site.baseurl }}{{ post.url }}" title="Bekijk de review van {{ post.specs.naam}}">{{ post.specs.naam }}</a></td>
+				<td>{{ post.reviewscore }}/5</td>
+				<td>{{ post.specs.gewicht }}</td>
+				<td>{{ post.specs.afmetingen-opgevouwen }}</td>
+				<td>{{ post.specs.kruipluik }}</td>
+				<td>{{ post.specs.verstelbare-bodem }}</td>
+				<td>{{ post.specs.wielen }}</td>
+				<td>{{ post.specs.draagtas }}</td>
+				<td>{{ post.specs.gebruik }} jaar</td>
+				<td>{{ post.specs.matras }}</td>
+			</tr>
+			{% endfor %}
+			<tr>
+				<td>Campingbed Nuna Sena Night</td>
+				<td>-</td>
+				<td>9.7</td>
+				<td>27x27x87</td>
+				<td>Nee</td>
+				<td>Nee</td>
+				<td>Nee</td>
+				<td>Ja	</td>
+				<td>0-3 jaar</td>
+				<td>5/5</td>
+			</tr>
+			<tr>
+				<td>Deryan travel cot baby</td>
+				<td>-</td>
+				<td>2</td>
+				<td>36x36x13</td>
+				<td>Ja</td>
+				<td>Nee</td>
+				<td>Nee</td>
+				<td>Ja</td>
+				<td>0-2 jaar</td>
+				<td>3/5</td>
+			</tr>
+			<tr>
+				<td>Deryan travel cot peuter</td>
+				<td>-</td>
+				<td>3</td>
+				<td>45x45x13</td>
+				<td>Ja</td>
+				<td>Nee</td>
+				<td>Nee</td>
+				<td>Ja</td>
+				<td>0-4,5 jaar</td>
+				<td>3/5</td>
+			</tr>
+			<tr>
+				<td>4moms Breeze</td>
+				<td>-</td>
+				<td>+/- 16</td>
+				<td>32x32x79</td>
+				<td>Nee</td>
+				<td>Ja</td>
+				<td>Nee</td>
+				<td>Ja</td>
+				<td>0-3 jaar</td>
+				<td>5/5</td>
+			</tr>
+			<tr>
+				<td>Baby Bj&ouml;rn reisbedje Light</td>
+				<td>-</td>
+				<td>5</td>
+				<td>14x49x60</td>
+				<td>Nee</td>
+				<td>Nee</td>
+				<td>Nee</td>
+				<td>Ja</td>
+				<td>0-3 jaar</td>
+				<td>4/5</td>
+			</tr>
+			<tr>
+				<td>Phil & Teds</td>
+				<td>-</td>
+				<td>3.2</td>
+				<td>25x20x68</td>
+				<td>Ja</td>
+				<td>Nee</td>
+				<td>Nee</td>
+				<td>Ja</td>
+				<td>0-3 jaar</td>
+				<td>-</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3>Gebruik vergelijkingstabel</h3>
+	<ul>
+		<li><b>Gewicht:</b> Het gewicht van het bedje incl. bijgeleverde matrasje.</li>
+		<li><b>Afmetingen opgevouwen:</b> Het formaat van het campingbedje in opgevouwen staat.</li>
+		<li><b>Bodemverhoger:</b> Bevat het campingbedje de mogelijkheid om de bodem in een verhoogde
+		stand te gebruiken?</li>
+		<li><b>Gebruik:</b> De leeftijdscategorie waarbinnen het bedje gebruik kan worden.</li>
+		<li><b>Matrasscore:</b> We hebben de standaard matrasjes van de campingbedjes vergeleken en een score
+		gegeven op een schaal van 1 tot 5. Waarbij 1 het meest basic matras is en 5 de meest luxe.</li>
+	</ul>
+
 </article>
