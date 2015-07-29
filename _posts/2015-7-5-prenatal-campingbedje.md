@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Prenetal basic campingbedje review
-metadescription: Wil je niet te veel geld uitgeven, of vind je het standaard campingbedje goed genoeg? Dan is het prenetal campingbedje een prima keuze.
+title: prenatal basic campingbedje review
+metadescription: Wil je niet te veel geld uitgeven, of vind je het standaard campingbedje goed genoeg? Dan is het prenatal campingbedje een prima keuze.
 
-permalink: /prenetal-basic-campingbedje-review/
+permalink: /prenatal-basic-campingbedje-review/
 reviewtitle: Prima bed voor een kleine prijs
 reviewscore: 3
 img:
-  small:  prenetal-campingbedje/prenetal-campingbed-small.jpg
-  medium: prenetal-campingbedje/prenetal-campingbed.jpg
-  large:  prenetal-campingbedje/prenetal-campingbed.jpg 
+  small:  prenatal-campingbedje/prenatal-campingbed-small.jpg
+  medium: prenatal-campingbedje/prenatal-campingbed.jpg
+  large:  prenatal-campingbedje/prenatal-campingbed.jpg 
   
 excerptbody: Prima bed voor een kleine prijs.
 introTitle: Eerste indruk
 intro: De kwaliteit is redelijk, het bedje het het klassieke in en uitklap systeem en voldoet aan de basis vereisten; campingbed, een draagtas en een hard matrasje.
        
 specs:
-  naam: Prenetal basic
+  naam: prenatal basic
   gewicht: 8.0
   afmetingen-opgevouwen: 22.5x21.5x74
   afmetingen-uitgevouwen: 125x65x75

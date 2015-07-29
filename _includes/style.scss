@@ -242,6 +242,8 @@ nav {
 
     @include mobile {
       margin: 0 10px;
+      line-height: 38px;
+      white-space: nowrap;
     }
 
     &:hover {
@@ -354,6 +356,7 @@ table {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-@import "type.scss";
+@import "tables";
+@import "type";
 @import "reviews";
 @import "buttons";
