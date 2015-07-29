@@ -48,4 +48,4 @@ Een prima bedje voor een mooie prijs. Wel raden we aan om het bedje voor gebruik
 <span id="handleiding"></span>
 Omdat we graag gelijk een video willen tonen over het in en uitklappen heb ik deze hierbij toegevoegd. De video is in het frans, maar het is de meest duidelijke video die er is naar onze mening. Ook zonder geluid is hij namelijk duidelijk.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QCKT-lzJx5E" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" style="max-width: 560px" height="315" src="https://www.youtube.com/embed/QCKT-lzJx5E" frameborder="0" allowfullscreen></iframe>
