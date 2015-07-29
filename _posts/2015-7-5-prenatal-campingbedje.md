@@ -13,7 +13,7 @@ img:
   
 excerptbody: Prima bed voor een kleine prijs.
 introTitle: Eerste indruk
-intro: De kwaliteit is redelijk, het bedje het het klassieke in en uitklap systeem en voldoet aan de basis vereisten; campingbed, een draagtas en een hard matrasje.
+intro: De kwaliteit is redelijk, het bedje heeft het klassieke in en uitklap systeem en voldoet aan de basis vereisten.
        
 specs:
   naam: prenatal basic
@@ -43,3 +43,8 @@ De stof van het campingbedje is van degelijke kwaliteit. Maar de waar is natuurl
 
 ##Eindoordeel
 Een prima bedje voor een mooie prijs. Wel raden we aan om het bedje voor gebruik enkele keren op te zetten, om te voorkomen dat je loopt te stuntelen op het moment dat je het bedje nodig hebt.
+
+##Extra
+Omdat we graag gelijk een video willen tonen over het in en uitklappen heb ik deze hierbij toegevoegd. De video is in het frans, maar het is de meest duidelijke video die er is naar onze mening. Ook zonder geluid is hij namelijk duidelijk.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QCKT-lzJx5E" frameborder="0" allowfullscreen></iframe>
