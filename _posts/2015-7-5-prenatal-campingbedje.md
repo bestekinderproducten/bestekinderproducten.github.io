@@ -33,7 +33,7 @@ specs:
 
 ##Uitklappen
 Zodra je weet hoe een standaard bedje opgezet moet worden is het erg makkelijk. Het is daarom wel aan te raden
-om de eerste keer een instructie video te bekijken.
+om de eerste keer een <a href="#handleiding">instructie video</a> te bekijken.
 
 ##Gewicht
 Met een gewicht van 8 kilo is het campingbedje niet het zwaarste bedje dat wij getest hebben. Maar als je van plan bent om het bedje vaak te verplaatsen, kunnen wij een lichter reisbedje aanraden.
@@ -45,6 +45,7 @@ De stof van het campingbedje is van degelijke kwaliteit. Maar de waar is natuurl
 Een prima bedje voor een mooie prijs. Wel raden we aan om het bedje voor gebruik enkele keren op te zetten, om te voorkomen dat je loopt te stuntelen op het moment dat je het bedje nodig hebt.
 
 ##Extra
+<span id="handleiding"></span>
 Omdat we graag gelijk een video willen tonen over het in en uitklappen heb ik deze hierbij toegevoegd. De video is in het frans, maar het is de meest duidelijke video die er is naar onze mening. Ook zonder geluid is hij namelijk duidelijk.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QCKT-lzJx5E" frameborder="0" allowfullscreen></iframe>
