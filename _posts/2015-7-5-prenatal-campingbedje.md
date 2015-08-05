@@ -1,6 +1,6 @@
 ---
 layout: post
-title: prenatal basic campingbedje review
+title: Prenatal basic campingbedje
 metadescription: Wil je niet te veel geld uitgeven, of vind je het standaard campingbedje goed genoeg? Dan is het prenatal campingbedje een prima keuze.
 
 permalink: /prenatal-basic-campingbedje-review/

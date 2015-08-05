@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Koelstra reisbedje review
+title: Koelstra reisbedje
 metadescription: Ben je opzoek naar degelijkheid en kwaliteit? Lees onze review en kom erachter of het Koelstra campingbedje het best bij jullie past of vergelijk hem in onze vergelijktabel.
 
 permalink: /koelstra-campingbedje-review/
