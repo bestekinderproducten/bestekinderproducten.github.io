@@ -3,7 +3,7 @@ layout: post
 title: Koelstra reisbedje review
 metadescription: Ben je opzoek naar degelijkheid en kwaliteit? Lees onze review en kom erachter of het Koelstra campingbedje het best bij jullie past of vergelijk hem in onze vergelijktabel.
 
-permalink: /koelstra-campingbedje-review/
+permalink: /koelstra-campingbedje-review
 reviewtitle: Mooie kwaliteit voor vele jaren.
 reviewscore: 4
 img:
@@ -13,7 +13,7 @@ img:
 excerptbody: Ben je opzoek naar degelijkheid en kwaliteit? Dan is het campingbedje van Koelstra een aanrader.
 introTitle: Eerste indruk
 intro: De stof voelt fijn en kwalitatief goed aan. Er is een keuze uit 7 kleuren wat het bedje net iets specialer maakt. Ook is het kruipluik een fijne toevoeging.
-       
+
 specs:
   naam: Koelstra
   gewicht: 9.8
@@ -36,7 +36,7 @@ Het uitklappen van het campingbed lijkt veel op dat van het klassieke reisbedje.
 ##Het kruipluik
 Een kruipluik kan een fijne toevoeging zijn voor een campingbed. Denk hierbij aan het optillen van een peuter, dit kan vrij belastend zijn voor de rug of als je recent bent bevallen van een tweede. Het luik kan enkel vanaf buiten worden geopend.
 
-##Gewicht 
+##Gewicht
 Het gewicht is bijna gelijk aan het klassieke reisbedje. Denk je veel oppad te gaan met het bedje moet je in overweging nemen dat het bedje zwaarder is dan de lichtere reis varianten.
 
 ##De Kwaliteit
