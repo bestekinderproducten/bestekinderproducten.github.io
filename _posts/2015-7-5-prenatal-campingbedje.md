@@ -2,10 +2,14 @@
 layout: post
 title: Prenatal basic campingbedje
 metadescription: Wil je niet te veel geld uitgeven, of vind je het standaard campingbedje goed genoeg? Dan is het prenatal campingbedje een prima keuze.
+category: reviews
 
-permalink: /prenatal-basic-campingbedje-review/
+permalink: /:categories/:title.html
 reviewtitle: Prima bed voor een kleine prijs
 reviewscore: 3
+
+tags: campingbedje, budgetPrijs
+
 img:
   small:  prenatal-campingbedje/prenatal-campingbed-small.jpg
   medium: prenatal-campingbedje/prenatal-campingbed.jpg
@@ -33,7 +37,7 @@ specs:
 
 ##Uitklappen
 Zodra je weet hoe een standaard bedje opgezet moet worden is het erg makkelijk. Het is daarom wel aan te raden
-om de eerste keer een <a href="#handleiding">instructie video</a> te bekijken.
+om de eerste keer een <a href="#handleiding" title="Spring naar de instructie video">instructie video</a> te bekijken.
 
 ##Gewicht
 Met een gewicht van 8 kilo is het campingbedje niet het zwaarste bedje dat wij getest hebben. Maar als je van plan bent om het bedje vaak te verplaatsen, kunnen wij een lichter reisbedje aanraden.
@@ -46,6 +50,6 @@ Een prima bedje voor een mooie prijs. Wel raden we aan om het bedje voor gebruik
 
 ##Extra
 <span id="handleiding"></span>
-Omdat we graag gelijk een video willen tonen over het in en uitklappen heb ik deze hierbij toegevoegd. De video is in het frans, maar het is de meest duidelijke video die er is naar onze mening. Ook zonder geluid is hij namelijk duidelijk.
+Omdat we graag gelijk een video willen tonen over het in en uitklappen hebben wij deze hierbij toegevoegd. De video is in het frans, maar het is de meest duidelijke video die er is naar onze mening. Ook zonder geluid is hij namelijk duidelijk.
 
 <iframe width="100%" style="max-width: 560px" height="315" src="https://www.youtube.com/embed/QCKT-lzJx5E" frameborder="0" allowfullscreen></iframe>

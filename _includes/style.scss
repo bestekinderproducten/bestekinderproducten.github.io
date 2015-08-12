@@ -268,27 +268,7 @@ nav {
   border-bottom: none;
 }
 
-.post, .page {
-  max-width: 780px;
-  background: white;
-  padding: 20px;
-  @media screen and (min-width: 640px) {
-    padding: 40px 30px 30px 100px;
-  }
 
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-}
 
 
 footer {
@@ -354,9 +334,10 @@ table {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "buttons";
 @import "highlights";
+@import "layout";
+@import "reviews";
 @import "svg-icons";
 @import "tables";
 @import "type";
-@import "reviews";
-@import "buttons";

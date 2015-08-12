@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	overflow: hidden;
+}
+.post, .page {
+	max-width: 71%;
+	background: white;
+	padding: 20px;
+	float: left;
+	@media screen and (min-width: 640px) {
+		padding: 40px 30px 30px 30px;
+	}
+
+	blockquote {
+		margin: 1.8em .8em;
+		border-left: 2px solid $gray;
+		padding: 0.1em 1em;
+		color: $gray;
+		font-size: 22px;
+		font-style: italic;
+	}
+
+	.comments {
+		margin-top: 10px;
+	}
+}
+
+.panel {
+	background: white;
+	padding: 0 20px;
+}
+
+.side-column {
+	width: 25%;
+	float: right;
+}
+
+footer {
+	clear: both;
+}

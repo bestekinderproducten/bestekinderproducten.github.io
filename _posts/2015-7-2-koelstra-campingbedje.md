@@ -1,15 +1,20 @@
 ---
 layout: post
-title: Koelstra reisbedje
+title: Koelstra travelsleeper
 metadescription: Ben je opzoek naar degelijkheid en kwaliteit? Lees onze review en kom erachter of het Koelstra campingbedje het best bij jullie past of vergelijk hem in onze vergelijktabel.
 
-permalink: /koelstra-campingbedje-review/
+category: reviews
+permalink: /:categories/:title.html
 reviewtitle: Mooie kwaliteit voor vele jaren.
 reviewscore: 4
+
+tags: campingbedje, normalePrijs
+
 img:
   small:  koelstra-campingbedje/koelstra-campingbed-jade-small.jpg
   medium: koelstra-campingbedje/koelstra-campingbed-jade.jpg
   large:  koelstra-campingbedje/koelstra-campingbed-jade.jpg
+
 excerptbody: Ben je opzoek naar degelijkheid en kwaliteit? Dan is het campingbedje van Koelstra een aanrader.
 introTitle: Eerste indruk
 intro: De stof voelt fijn en kwalitatief goed aan. Er is een keuze uit 7 kleuren wat het bedje net iets specialer maakt. Ook is het kruipluik een fijne toevoeging.
