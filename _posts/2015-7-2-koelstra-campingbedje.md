@@ -4,7 +4,7 @@ title: Koelstra travelsleeper
 metadescription: Ben je opzoek naar degelijkheid en kwaliteit? Lees onze review en kom erachter of het Koelstra campingbedje het best bij jullie past of vergelijk hem in onze vergelijktabel.
 
 category: reviews
-permalink: /:categories/:title.html
+permalink: /reviews/koelstra-travelsleeper.html
 reviewtitle: Mooie kwaliteit voor vele jaren.
 reviewscore: 4
 
