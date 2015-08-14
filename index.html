@@ -15,7 +15,7 @@ layout: default
 		beste past bij jullie situatie en behoeften. Hiermee hopen wij jou een aardige tijd aan
 		onderzoek te ontnemen!</p>
 
-	<h2>Onze laatste reviews</h2>
+	<h2>Onze laatste berichten</h2>
 
 	<div class="posts">
 		{% for post in site.posts %}
@@ -36,7 +36,7 @@ layout: default
 					{{ post.excerptbody }}
 				</div>
 				<div class="button-container button-right">
-					<a href="{{ site.baseurl }}{{ post.url }}" class="read-more button ">Bekijk review</a>
+					<a href="{{ site.baseurl }}{{ post.url }}" class="read-more button ">{{ post.buttonText }}</a>
 				</div>
 			</div>
 

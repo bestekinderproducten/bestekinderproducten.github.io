@@ -32,7 +32,8 @@
 
 .panel {
 	background: white;
-	padding: 0 20px;
+	padding: 0 20px 20px;
+	margin-bottom: 20px;
 }
 
 .side-column {
@@ -48,4 +49,33 @@
 
 footer {
 	clear: both;
+}
+
+
+
+.checklist {
+	width: 100%;
+
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	@media screen and (min-width: 640px) {
+		float: left;
+		margin-right: 2%;
+		width: 48%;
+	}
+	@media print {
+		float: left;
+		margin-right: 2%;
+		vertical-align: top;
+		width: 48%;
+	}
+}
+
+@media print {
+	.only-screen {
+		display: none;
+	}
 }

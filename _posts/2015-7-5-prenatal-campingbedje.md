@@ -16,6 +16,7 @@ img:
   large:  prenatal-campingbedje/prenatal-campingbed.jpg
 
 excerptbody: Prima bed voor een kleine prijs.
+buttonText: Bekijk review
 introTitle: Eerste indruk
 intro: De kwaliteit is redelijk, het bedje heeft het klassieke in en uitklap systeem en voldoet aan de basis vereisten.
 

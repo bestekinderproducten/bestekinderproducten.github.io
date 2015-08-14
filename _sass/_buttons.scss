@@ -12,9 +12,21 @@
 	&:hover {
 		color: white;
 		background: darken($girl, 10%);
+		cursor: pointer;
 	}
 }
 
 .button-right {
 	text-align: right;
+}
+
+.button-large {
+	padding: 10px 30px;
+	font-size: 150%;
+}
+
+.button-centered {
+	clear: both;
+	display: block;
+	text-align: center;
 }

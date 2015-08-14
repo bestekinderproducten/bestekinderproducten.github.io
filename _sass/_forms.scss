@@ -1,0 +1,11 @@
+.own-input {
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+	font-size: 100%;
+
+	&:focus {
+		outline: none;
+		border-bottom: 1px solid black;
+	}
+}

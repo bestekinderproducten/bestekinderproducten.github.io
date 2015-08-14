@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<article class="panel">
+	<h1>{{ page.title }}</h1>
+	<p>{{ page.intro }}</p>
+
+	{% for section in page.section %}
+	<section class="checklist">
+		<h3>{{ section[0] }}</h3>
+		<ul class="col6">
+			{% for items in section[1] %}
+			<li>
+				<input id="{{ items[0]}}" type="checkbox" title="{{ items[1]}}" name="{{ items[0]}}">
+				<label for="{{ items[0] }}">{{ items[1] }}</label>
+			</li>
+			{% endfor %}
+		</ul>
+	</section>
+	{% endfor %}
+
+	<section class="checklist">
+		<h3>Ook niet vergeten:</h3>
+		<ul class="col6">
+			<li>
+				<input id="custom1" type="checkbox" title="custom1" name="custom1">
+				<label for="custom1">
+					<input type="text" class="own-input">
+				</label>
+			</li>
+			<li>
+				<input id="custom1" type="checkbox" title="custom1" name="custom1">
+				<label for="custom1">
+					<input type="text" class="own-input">
+				</label>
+			</li>
+			<li>
+				<input id="custom1" type="checkbox" title="custom1" name="custom1">
+				<label for="custom1">
+					<input type="text" class="own-input">
+				</label>
+			</li>
+			<li>
+				<input id="custom1" type="checkbox" title="custom1" name="custom1">
+				<label for="custom1">
+					<input type="text" class="own-input">
+				</label>
+			</li>
+			<li>
+				<input id="custom1" type="checkbox" title="custom1" name="custom1">
+				<label for="custom1">
+					<input type="text" class="own-input">
+				</label>
+			</li>
+		</ul>
+	</section>
+
+	<section class="button-centered only-screen">
+		<button class="button button-large" onclick="window.print();"> Printen </button>
+	</section>
+</article>

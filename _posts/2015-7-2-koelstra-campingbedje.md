@@ -16,9 +16,10 @@ img:
   large:  koelstra-campingbedje/koelstra-campingbed-jade.jpg
 
 excerptbody: Ben je opzoek naar degelijkheid en kwaliteit? Dan is het campingbedje van Koelstra een aanrader.
+buttonText: Bekijk review
+
 introTitle: Eerste indruk
 intro: De stof voelt fijn en kwalitatief goed aan. Er is een keuze uit 7 kleuren wat het bedje net iets specialer maakt. Ook is het kruipluik een fijne toevoeging.
-
 specs:
   naam: Koelstra
   gewicht: 9.8
