@@ -18,6 +18,7 @@ permalink: /campingbedjes-reviews.html
 
 <div class="posts">
 	{% for post in site.posts %}
+	{% if post.layout == "post" %}
 	<article class="review review-excerpt">
 		<figure class="review-thumb">
 			<a href="{{ site.baseurl }}{{ post.url }}">
@@ -40,5 +41,6 @@ permalink: /campingbedjes-reviews.html
 		</div>
 
 	</article>
+	{% endif %}
 	{% endfor %}
 </div>

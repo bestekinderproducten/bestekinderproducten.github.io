@@ -1,8 +1,11 @@
 ---
 layout: checklist
 title: Paklijst op vakantie met het vliegtuig
-intro: Ook zo een zin om op vakantie te gaan? En kan je ook wat hulp gebruiken bij het inpakken van de koffers? Gebruik onze handige inpaklijst!
-metadescription: Ook zo een zin om op vakantie te gaan? En kan je ook wat hulp gebruiken bij het inpakken van de koffers? Gebruik onze handige inpaklijst!
+metadescription: Op vakantie met een baby, dreumes of peuter? Gebruik onze handige inpaklijst en zorg ervoor dat je niets vergeet!
+
+intro: Om ervoor te zorgen dat je het essentiele meeneemt op vakantie en niet teveel inpakt. Hebben wij een checklist gemaakt.
+ Daarnaast is het ook handig om voor vertrek te weten wat de accomodatie allemaal aanbiedt; denk hierbij aan een campingbedje met beddengoed of een badje.
+ En al gekeken hoelang het transfer duurt vanaf vliegveld naar Hotel? 
 
 category: checklists
 permalink: checklists/op-vakantie-met-het-vliegtuig.html
@@ -13,69 +16,72 @@ img:
   large:  koelstra-campingbedje/koelstra-campingbed-jade.jpg
 
 excerptbody: Ga je naar de zon met het vliegtuig? Dan komt onze handige paklijst vast van pas!
-buttonText: Bekijk paklijst
+buttonText: Bekijk de paklijst
 
 section:
   Onderweg:
+    beker: tuitbeker of fles
     buggy: Buggy of Kinderwagen
-    paspoort: Paspoort
+    deken: Dekentje
+    hydrofiel-luier: Hydrofiel luier
     inentingsbewijzen: Inentingsbewijzen
-    zonnehoedje: Zonnehoedje
-    zonnebrand: Zonnebrand
     luiers: Luiers
     luierdoekjes: Luierdoekjes
-    proviant: Proviant koekjes/rozijnen/fruithap/water/broodje
-    speen: Speen 
-    beker: tuitbeker of fles
+    kledingset: Een setje kleding
     knuffel: knuffel/tut
-    deken: Dekentje
-    kledingset: een setje kleding
+    proviant: Koekjes/rozijnen/fruithap/water/broodje
+    zorgverzekering: Pasje zorgverzekering
+    paspoort: Paspoort
     plastic-zakje: Plastic zakjes voor vieze luiers/afval
-    hydrofiel-luier: Hydrofiel luier
+    polsbandje: <a href='http://www.koterkado.nl/polsbandje-met-naam'>Polsbandje met naam en telefoonnummer</a>
     speelgoed: Speelgoed zonder geluid
+    speen: Speen 
+    zonnebrand: Zonnebrand
+    zonnehoedje: Zonnehoedje
 
   Kleding:
-    zwemluiers: Wasbare/wegwerp zwemluiers
-    slab: slab 
-    rompers: 7 rompertjes of 7 ondergoedsetjes
     badpak: 1 badpak/bikini
-    langebroeken: 2 lange broeken
     kortebroeken: 4 korte broeken
-    tshirts: 7 T-shirts
-    vest: 1 vest
-    trui: 2 trui
-    sokken: 7 paar sokjes (verbranding van voetjes)
-    schoenen: 2 paar schoentjes (waarvan een paar waterschoentjes)
+    langebroeken: 2 lange broeken
+    rompers: 7 rompertjes of 7 ondergoedsetjes
+    slab: Slab 
+    schoenen: 1 paar schoentjes
     slofjes: Slofjes
-    zonnehoedje2: Extra zonnehoedje 
-    zonnebril: 1uv zonnebril 
+    sokken: 7 paar sokjes (verbranding van voetjes)
+    trui: 2 trui
+    tshirts: 7 T-shirts
     pyama: 2 pyjama's
+    vest: 1 vest
+    waterschoentjes: Waterschoentjes
+    zonnebril: 1uv zonnebril 
+    zonnehoedje2: Extra zonnehoedje 
     zomerslaapzak: 1 zomerslaapzak
     zomerjasje: Zomerjasje
+    zwemluiers: wegwerp/<a title='Wasbare zwemluiers' href='http://www.greenjump.nl/Categorie/Kleding/Zwemluiers'>Wasbare zwemluiers</a>
     
   Verzorging:
-    shampoo: Shampoo
-    wasgel: Wasgel
-    tandenborstel: Tandenborstel
-    tandpasta: Tandpasta
     babyolie: Babyolie/lotion
     muskietnet: Muskietennet
+    nagelsetje: Nagelverzorgingssetje
+    shampoo: Shampoo
+    tandenborstel: Tandenborstel
+    tandpasta: Tandpasta
+    wasgel: Wasgel
     
   Medicijnen: 
-    neusspray: Neusspray
-    zetpillen: Zetpillen
-    ors: ORS
     billencreme: Billencreme
-    thermometer: Thermometer
+    neusspray: Neusspray
+    ors: ORS
     pleisters: Pleisters, betadine en verband
+    thermometer: Thermometer
+    vitamined: Vitamine D
+    zetpillen: Zetpillen
     
   Overig:
     babyfoon: Babyfoon
-    zwembadje: Klein zwembadje
-    zandspeeltjes: Zandspeeltjes
     speelgoed2: Speelgoed
+    zandspeeltjes: Zandspeeltjes
+    zwembadje: Klein zwembadje
+    zwembadjes: Zwembadjes of <a href='http://www.prenatal.nl/shop/speelgoed-%26-cadeau-Buiten-speelgoed/Div.-Merken-Swimtrainer-classic-90867.htm?id=90867' title='Swimtrainer'>Swimtrainer</a>
     
-
-
-
 ---
