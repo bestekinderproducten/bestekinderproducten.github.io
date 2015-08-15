@@ -33,7 +33,7 @@ section:
     zorgverzekering: Pasje zorgverzekering
     paspoort: Paspoort
     plastic-zakje: Plastic zakjes voor vieze luiers/afval
-    polsbandje: <a href='http://www.koterkado.nl/polsbandje-met-naam'>Polsbandje met naam en telefoonnummer</a>
+    polsbandje: <a target='_blank' href='http://www.koterkado.nl/polsbandje-met-naam'>Polsbandje met naam en telefoonnummer</a>
     speelgoed: Speelgoed zonder geluid
     speen: Speen 
     zonnebrand: Zonnebrand
@@ -57,7 +57,7 @@ section:
     zonnehoedje2: Extra zonnehoedje 
     zomerslaapzak: 1 zomerslaapzak
     zomerjasje: Zomerjasje
-    zwemluiers: wegwerp/<a title='Wasbare zwemluiers' href='http://www.greenjump.nl/Categorie/Kleding/Zwemluiers'>Wasbare zwemluiers</a>
+    zwemluiers: wegwerp/<a target='_blank' title='Wasbare zwemluiers' href='http://www.greenjump.nl/Categorie/Kleding/Zwemluiers'>Wasbare zwemluiers</a>
     
   Verzorging:
     babyolie: Babyolie/lotion
@@ -82,6 +82,6 @@ section:
     speelgoed2: Speelgoed
     zandspeeltjes: Zandspeeltjes
     zwembadje: Klein zwembadje
-    zwembadjes: Zwembadjes of <a href='http://www.prenatal.nl/shop/speelgoed-%26-cadeau-Buiten-speelgoed/Div.-Merken-Swimtrainer-classic-90867.htm?id=90867' title='Swimtrainer'>Swimtrainer</a>
+    zwembadjes: Zwembadjes of <a target='_blank' href='http://www.prenatal.nl/shop/speelgoed-%26-cadeau-Buiten-speelgoed/Div.-Merken-Swimtrainer-classic-90867.htm?id=90867' title='Swimtrainer'>Swimtrainer</a>
     
 ---
