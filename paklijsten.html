@@ -1,0 +1,36 @@
+---
+layout: page
+title: De baby tot peuter inpaklijsten van bestebabyproducten.nl
+metadescription: Om de deur uit te gaan met kinderen is plannen handig. Gebruik hierbij een van onze handige paklijsten!
+permalink: /paklijsten.html
+---
+
+
+<div class="posts">
+	{% for post in site.posts %}
+	{% if post.layout == "checklist" %}
+	<article class="review review-excerpt">
+		<figure class="review-thumb">
+			<a href="{{ site.baseurl }}{{ post.url }}">
+				<img src="{{ site.baseurl }}/post_images/{{ post.img.small }}"
+					 alt="{{ post.title }}">
+			</a>
+		</figure>
+		<div class="review-body">
+			<h3 class="review-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+				{% include rating.html rating=post.reviewscore %}
+			</h3>
+
+
+			<div class="entry">
+				{{ post.excerptbody }}
+			</div>
+			<div class="button-container button-right">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="read-more button ">{{ post.buttonText }}</a>
+			</div>
+		</div>
+
+	</article>
+	{% endif %}
+	{% endfor %}
+</div>

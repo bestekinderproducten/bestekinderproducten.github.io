@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <article class="page">
 
   <h1>{{ page.title }}</h1>
@@ -11,8 +12,14 @@ layout: default
   </div>
 </article>
 
+{% if page.type == "post" %}
 <aside class="panel side-column">
   <h3>Overzicht kwijt?</h3>
   <p> In onze vergelijk tabel kan je een mooi overzicht terugvinden met alle details van de bedjes in een oogopslag!.</p>
   <a href="{{ site.baseurl }}/campingbedjes-vergelijken.html" class="button">Vergelijk tabel</a>
+</aside>
+{% endif %}
+
+<aside class="panel side-column top-banner">
+<a href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=39142&url=http%3A//www.bol.com/nl/baby/index.html&f=BAN&name=Baby 2014&subid=sidebar" target="_blank"><img src="http://www.bol.com/nl/upload/banners/baby_141108_120x600.jpg " width="120" height="600" alt="Baby 2014"  /></a><img src="http://partnerprogramma.bol.com/click/impression?p=1&s=39142&t=url&f=BAN&name=Baby 2014&subid=sidebar" width="1" height="1" />
 </aside>

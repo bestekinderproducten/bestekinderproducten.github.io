@@ -56,3 +56,5 @@ Ten opzichte van een normaal campingbedje zijn er ook wat nadelen. De Deryan lig
 
 ##Oordeel
 Wij worden enthousiast van de Deryan travelcot. Het bedje is makkelijk voor zoveel verschillende doeleinden; denk bijvoorbeeld aan een dagje strand, op visite, op de camping. Het bedje kan ook als speeltent gebruikt worden omdat het een makkelijke instap heeft en het tent gevoel is ook wat groter omdat het bedje een 'dak' heeft. 
+
+Onder ander te koop bij <a href="https://partner.bol.com/click/click?p=2&t=url&s=39142&f=TXL&url=http%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fderyan-peuter-luxe-campingbedje-khaki%2F9200000002015699%2F&name=Deryan%20Peuter%20Luxe%20-%20Campingbedje%20-%20Khaki" target="_blank">Bol.com</a>
