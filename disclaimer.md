@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Disclaimer
-meta: Disclaimer voor de website www.bestebabyproducten.nl. Bestebabyproducten.nl verleent u hierbij toegang tot http://www.bestebabyproducten.nl en publiceert hier informatie, teksten, afbeeldingen en andere materialen. Bestebabyproducten.nl behoudt zich het recht om op elk moment de inhoud aan te passen of onderdelen compleet te verwijderen zonder daarover aan u mededeling te hoeven doen.
+metadescription: Disclaimer voor de website www.bestebabyproducten.nl. Bestebabyproducten.nl verleent u hierbij toegang tot http://www.bestebabyproducten.nl en publiceert hier informatie, teksten, afbeeldingen en andere materialen. Bestebabyproducten.nl behoudt zich het recht om op elk moment de inhoud aan te passen of onderdelen compleet te verwijderen zonder daarover aan u mededeling te hoeven doen.
 permalink: /disclaimer/
 ---
 

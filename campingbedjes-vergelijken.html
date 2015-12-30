@@ -24,12 +24,13 @@ permalink: /campingbedjes-vergelijken.html
 				<td>Wielen</td>
 				<td>Draagtas</td>
 				<td>Gebruik</td>
-				<td>Matrasscore</td>
+				<td>Matras score</td>
 			</tr>
 		</thead>
 
 		<tbody>
 			{% for post in site.posts %}
+			{% if post.layout == 'post' %}
 			<tr>
 				<td class="value-field" title="Productnaam"><a href="{{ site.baseurl }}{{ post.url }}" title="Bekijk de review van {{ post.specs.naam}}">{{ post.specs.naam }}</a></td>
 				<td class="value-field" title="Onze score">{{ post.reviewscore }}/5</td>
@@ -42,6 +43,7 @@ permalink: /campingbedjes-vergelijken.html
 				<td class="value-field" title="Leeftijdscategorie">{{ post.specs.gebruik }} jaar</td>
 				<td class="value-field" title="Matras">{{ post.specs.matras }}</td>
 			</tr>
+			{% endif %}
 			{% endfor %}
 			<tr>
 				<td class="value-field" title="Productnaam">Campingbed Nuna Sena Night</td>
@@ -65,18 +67,6 @@ permalink: /campingbedjes-vergelijken.html
 				<td class="value-field" title="Wielen">Nee</td>
 				<td class="value-field" title="Draagtas">Ja</td>
 				<td class="value-field" title="Leeftijdscategorie">0-2 jaar</td>
-				<td class="value-field" title="Matras">3/5</td>
-			</tr>
-			<tr>
-				<td class="value-field" title="Productnaam">Deryan travel cot peuter</td>
-				<td class="value-field" title="Onze score">-</td>
-				<td class="value-field" title="Gewicht">3</td>
-				<td class="value-field" title="Afm. opgevouwen">45x45x13</td>
-				<td class="value-field" title="Kruipluik">Ja</td>
-				<td class="value-field" title="Bodemverhoger">Nee</td>
-				<td class="value-field" title="Wielen">Nee</td>
-				<td class="value-field" title="Draagtas">Ja</td>
-				<td class="value-field" title="Leeftijdscategorie">0-4,5 jaar</td>
 				<td class="value-field" title="Matras">3/5</td>
 			</tr>
 			<tr>

@@ -18,7 +18,7 @@ layout: default
 	<h2>Onze laatste berichten</h2>
 
 	<div class="posts">
-		{% for post in site.posts %}
+		{% for post in site.posts limit:3  %}
 		<article class="review review-excerpt">
 			<figure class="review-thumb">
 				<a href="{{ site.baseurl }}{{ post.url }}">

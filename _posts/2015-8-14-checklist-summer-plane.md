@@ -1,26 +1,26 @@
 ---
 layout: checklist
-title: Paklijst op vakantie met het vliegtuig
-metadescription: Op vakantie met een baby, dreumes of peuter? Gebruik onze handige inpaklijst en zorg ervoor dat je niets vergeet!
+title: Vliegvakantie met een baby of peuter
+metadescription: Op vakantie met een baby, dreumes of peuter? Print onze handige inpaklijst en zorg ervoor dat je niets vergeet!
 
 intro: Om ervoor te zorgen dat je het essentiele meeneemt op vakantie en niet teveel inpakt. Hebben wij een checklist gemaakt.
  Daarnaast is het ook handig om voor vertrek te weten wat de accomodatie allemaal aanbiedt; denk hierbij aan een campingbedje met beddengoed of een badje.
- En al gekeken hoelang het transfer duurt vanaf vliegveld naar Hotel? 
+ En al gekeken hoelang het transfer duurt vanaf vliegveld naar Hotel?
 
 category: checklists
 permalink: checklists/op-vakantie-met-het-vliegtuig.html
 
 img:
   small:  checklist-summer-plane/suitcase.png
-  medium: koelstra-campingbedje/koelstra-campingbed-jade.jpg
-  large:  koelstra-campingbedje/koelstra-campingbed-jade.jpg
+  medium: checklist-summer-plane/suitcase.png
+  large:  checklist-summer-plane/vakantiechecklist.jpg
 
 excerptbody: Ga je naar de zon met het vliegtuig? Dan komt onze handige paklijst vast van pas!
 buttonText: Bekijk de paklijst
 
 section:
   Onderweg:
-    beker: tuitbeker of fles
+    beker: tuitbeker of flesje
     buggy: Buggy of Kinderwagen
     deken: Dekentje
     hydrofiel-luier: Hydrofiel luier
@@ -35,7 +35,7 @@ section:
     plastic-zakje: Plastic zakjes voor vieze luiers/afval
     polsbandje: <a target='_blank' href='http://www.koterkado.nl/polsbandje-met-naam'>Polsbandje met naam en telefoonnummer</a>
     speelgoed: Speelgoed zonder geluid
-    speen: Speen 
+    speen: Speen
     zonnebrand: Zonnebrand
     zonnehoedje: Zonnehoedje
 
@@ -46,7 +46,7 @@ section:
     rompers: 7 rompertjes of 7 ondergoedsetjes
     slab: Slab 
     schoenen: 1 paar schoentjes
-    slofjes: Slofjes
+    slofjes: Slofjes (voor de echte ukkies)
     sokken: 7 paar sokjes (verbranding van voetjes)
     trui: 2 trui
     tshirts: 7 T-shirts
