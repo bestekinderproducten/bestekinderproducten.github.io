@@ -50,3 +50,5 @@ De kwaliteit van de stof is zeer fijn, de vernieuwde versie van het campingbedje
 
 ##Oordeel
 Wij zijn zeer te spreken over dit model, de kwaliteit is goed en het bedje is stevig. Voor regelmatig gebruik is dit een prima keuze.
+
+<script type="text/javascript">var bol_sitebar={"id":"bol_1451928970909","secure":false,"baseUrl":"partner.bol.com","urlPrefix":"https://aai.bol.com/openapi/services/aai/","productId":"productid=9200000024774676","site_id":"39142","target":true,"rating":true,"price":true,"link_name":"Koelstra%20-%20Travelsleeper%20T5%20Campingbed%20-%20Rood","link_subid":"product%20pagina","background_color":"#FFFFFF","text_color":"#CB0100","link_color":"#0000FF"};</script><script type="text/javascript" src="https://partner.bol.com/partner/static/js/aai/partnerProductlink.js" id="bol_1451928970909"></script>

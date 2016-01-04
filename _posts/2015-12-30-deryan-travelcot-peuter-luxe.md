@@ -4,7 +4,7 @@ title: Deryan travelcot luxe peuter
 metadescription: Veel onderweg en opzoek naar een licht en flexibele blek voor de kleine? Dan is het Deryan luxe peuter campinbedje misschien wel iets voor jou!
 
 category: reviews
-permalink: /reviews/koelstra-travelsleeper.html
+permalink: /reviews/deyran-travelcot-peuter-luxe.html
 reviewtitle: Dit bedje kan zelfs mee op de fiets!
 reviewscore: 4
 
