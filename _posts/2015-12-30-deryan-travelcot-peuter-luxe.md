@@ -8,7 +8,7 @@ permalink: /reviews/deyran-travelcot-peuter-luxe.html
 reviewtitle: Dit bedje kan zelfs mee op de fiets!
 reviewscore: 4
 
-tags: campingbedje, licht gewicht, normale prijs
+tags: [campingbedje, licht gewicht, normale prijs]
 
 img:
   small:  deryan-travelcot-peuter-luxe/deryan-travelcot-peuter-luxe.jpg
@@ -22,7 +22,7 @@ introTitle: Eerste indruk
 intro: Licht van gewicht, neemt weinig ruimte in en hij staat met 2 seconden, dit bevalt goed! Naast het campingbedje wordt er een dun zelfopblaasbaar matrasje (2,5cm), een slaapzak en een draagtas meegeleverd.
 specs:
   naam: Deryan travelcot luxe peuter
-  gewicht: 3.4
+  gewicht: 3.4kg
   afmetingen-opgevouwen: 45x45x15
   afmetingen-uitgevouwen: 136x84x62
   kruipluik: Ja
@@ -34,6 +34,10 @@ specs:
   gebruik: 0-4.5
   richtprijs: 79.95
   matras: 3/5
+
+externalLink: https://www.bol.com/nl/p/deryan-peuter-luxe-campingbedje-blauw/9200000002015697/?s2a
+externalLinkTitle: Bekijk de Deryan travelcot bij bol.com
+
 ---
 
 ##Uitklappen

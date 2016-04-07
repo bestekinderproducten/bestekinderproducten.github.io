@@ -45,3 +45,26 @@ title: Campingbedje kopen? Lees hier reviews, tips en vergelijkingen!
 		{% endfor %}
 	</div>
 </article>
+<aside class="panel side-column home-intro">
+  <h3>Recente reviews:</h3>
+  <ol>
+	{% for post in site.posts %}
+		{% assign sameTagCount = 0 %}
+		{% assign commonTags = '' %}
+
+		{% if post.tags contains 'campingbedje' %}
+			{% assign sameTagCount = sameTagCount | plus: 1 %}
+		{% endif %}
+
+		{% if sameTagCount >= 1 %}
+		<li class="aside-product">
+			<a href="{{ post.url }}">
+				<h5>{{ post.title }} {% include rating.html rating=post.reviewscore %}</h5>
+			</a>
+		</li>
+		{% endif %}
+
+		{% endfor %}
+</ol>
+  <a href="{{ site.baseurl }}/campingbedjes.html" class="button">Bekijk alle reviews</a>
+</aside>

@@ -84,6 +84,13 @@ a {
   &:hover, &:active {
     color: $blue;
   }
+
+  h3, h5 {
+  color: inherit;
+  &:hover {
+    text-decoration: underline
+  }
+  }
 }
 
 ul, ol {

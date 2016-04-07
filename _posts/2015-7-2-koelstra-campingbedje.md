@@ -8,7 +8,7 @@ permalink: /reviews/koelstra-travelsleeper.html
 reviewtitle: Mooie kwaliteit voor vele jaren.
 reviewscore: 4
 
-tags: campingbedje, normalePrijs
+tags: [campingbedje, normalePrijs]
 
 img:
   small:  koelstra-campingbedje/koelstra-campingbed-jade-small.jpg
@@ -22,7 +22,7 @@ introTitle: Eerste indruk
 intro: De stof voelt fijn en kwalitatief goed aan. Er is een keuze uit 7 kleuren wat het bedje net iets specialer maakt. Ook is het kruipluik een fijne toevoeging.
 specs:
   naam: Koelstra
-  gewicht: 9.8
+  gewicht: 9.8kg
   afmetingen-opgevouwen: 22x22x75
   afmetingen-uitgevouwen: 120x60x75
   kruipluik: Ja
@@ -34,6 +34,10 @@ specs:
   gebruik: 0-4
   richtprijs: 99,-
   matras: 2/5
+
+externalLink: https://www.bol.com/nl/p/koelstra-travelsleeper-t4-campingbed-plume/9200000010550222/?s2a
+
+externalLinkTitle: Bekijk de Koelstra travelsleeper bol.com
 ---
 
 ##Uitklappen
@@ -50,5 +54,3 @@ De kwaliteit van de stof is zeer fijn, de vernieuwde versie van het campingbedje
 
 ##Oordeel
 Wij zijn zeer te spreken over dit model, de kwaliteit is goed en het bedje is stevig. Voor regelmatig gebruik is dit een prima keuze.
-
-<script type="text/javascript">var bol_sitebar={"id":"bol_1451928970909","secure":false,"baseUrl":"partner.bol.com","urlPrefix":"https://aai.bol.com/openapi/services/aai/","productId":"productid=9200000024774676","site_id":"39142","target":true,"rating":true,"price":true,"link_name":"Koelstra%20-%20Travelsleeper%20T5%20Campingbed%20-%20Rood","link_subid":"product%20pagina","background_color":"#FFFFFF","text_color":"#CB0100","link_color":"#0000FF"};</script><script type="text/javascript" src="https://partner.bol.com/partner/static/js/aai/partnerProductlink.js" id="bol_1451928970909"></script>

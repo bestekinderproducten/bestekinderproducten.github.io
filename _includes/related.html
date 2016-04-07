@@ -19,12 +19,12 @@
 		{% if sameTagCount >= 1 %}
 		<div class="aside-product">
 			<a href="{{ post.url }}">
-				<h5>{{ post.title }} {% include rating.html rating=post.reviewscore %}</h5>
 				{% if post.img %}
 				<figure class="review-thumb">
 					<img itemprop="image" alt="{{ post.reviewtitle }}" src="{{ site.baseurl }}/post_images/{{post.img.small}}">
 				</figure>
 				{% endif %}
+				<h5>{{ post.title }} {% include rating.html rating=post.reviewscore %}</h5>
 			</a>
 		</div>
 		{% endif %}

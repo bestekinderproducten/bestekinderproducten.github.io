@@ -1,13 +1,11 @@
 ---
 layout: default
 ---
-
-
-
 <article class="post review" itemscope itemtype="http://schema.org/Product">
   {% if page.img %}
   <figure class="review-thumb">
     <img itemprop="image" alt="{{ page.reviewtitle }}" src="{{ site.baseurl }}/post_images/{{page.img.large}}">
+    <div class="button-wrapper">
   </figure>
   {% endif %}
   <h1 itemprop="name">{{ page.title }}</h1>
@@ -58,7 +56,10 @@ layout: default
     </div>
   </div>
 
-  {% include disqus.html %}
+<div class="button-wrapper">
+  <a href="{{ page.externalLink }}" class="button " target="_blank" title="{{ page.externalLinkTitle }}">{{ page.externalLinkTitle }}</a>
+</div>
+
 </article>
 
 {% include related.html %}
@@ -73,6 +74,8 @@ layout: default
   <p> In onze vergelijk tabel kan je een mooi overzicht terugvinden met alle details van de bedjes in een oogopslag!.</p>
   <a href="{{ site.baseurl }}/campingbedjes-vergelijken.html" class="button">Vergelijk tabel</a>
 </aside>
+
+
 <aside class="panel side-column top-banner">
 <a href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=39142&url=http%3A//www.bol.com/nl/baby/index.html&f=BAN&name=Baby 2014&subid=sidebar" target="_blank"><img src="http://www.bol.com/nl/upload/banners/baby_141108_120x600.jpg " width="120" height="600" alt="Baby 2014"  /></a><img src="http://partnerprogramma.bol.com/click/impression?p=1&s=39142&t=url&f=BAN&name=Baby 2014&subid=sidebar" width="1" height="1" />
 </aside>
